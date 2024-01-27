@@ -1,184 +1,172 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-body {
-    font-family: "Poppins", sans-serif;
-    padding: 0;
-    margin: 0;
-}
-
+body{
+        font-family: "Poppins", sans-serif;
+        padding: 0;
+        margin: 0;
+    }
 nav {
-    background: white;
-    color: rgb(13, 26, 38);
-    text-align: center;
-    position: fixed;
-    top: 0;
-    height: 60px;
-    line-height: 60px;
-    width: 100vw;
-    z-index: 10;
+        background: white;
+        color: rgb(13, 26, 38);
+        text-align: center;
+        position: fixed;
+        top: 0;
+        height: 60px;
+        line-height: 60px;
+        width: 100vw;
+        z-index: 10;
 }
 
-nav ul {
-    display: inline-block;
-    list-style: none;
-    margin-top: -2px;
-    text-align: center;
-    transition: transform 0.5s ease-out;
-    -webkit-transition: transform 0.5s ease-out;
+nav ul{   
+        display: inline-block;
+        list-style: none;
+        margin-top: -2px;
+        text-align: center;
+        transition: transform 0.5s ease-out;
+        -webkit-transition: transform 0.5s ease-out;
 }
 
 nav li {
-    display: inline-block;
+        display: inline-block;
 }
 
 nav li a {
-    color: rgb(13, 26, 38);
-    display: block;
-    font-size: 0.7em;
-    height: 50px;
-    letter-spacing: 1px;
-    margin: 0 20px;
-    padding: 0 4px;
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
+        color: rgb(13, 26, 38);
+        display: block;
+        font-size: 0.7em;
+        height: 50px;
+        letter-spacing: 1px;
+        margin: 0 20px;
+        padding: 0 4px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
 }
-
+    
 nav li a:hover {
-    color: rgb(28, 121, 184);
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
+        color: rgb(28, 121, 184);
+        transition: all 1s ease;
+        -webkit-transition: all 1s ease;
 }
 
 
 
-.fixed-bg1 {
-    padding-top: 80px;
-    min-height: 500px;
-    background-image: url("tete.jpg");
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-    position: relative;
+.fixed-bg1{
+        padding-top: 80px;
+        min-height: 500px;
+        background-image: url("tete.jpg");
+        background-attachment: fixed;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        position: relative;
 }
-
-.fixed-bg2 {
-    padding-top: 80px;
-    min-height: 500px;
-    background-image: url("baroque.jpg");
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-    position: relative;
+.fixed-bg2{
+        padding-top: 80px;
+        min-height: 500px;
+        background-image: url("baroque.jpg");
+        background-attachment: fixed;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        position: relative;
 }
-
-.fixed-bg3 {
-    padding-top: 80px;
-    min-height: 500px;
-    background-image: url("pexels-cottonbro-studio-9511241.jpg");
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-    position: relative;
+.fixed-bg3{
+        padding-top: 80px;
+        min-height: 500px;
+        background-image: url("pexels-cottonbro-studio-9511241.jpg");
+        background-attachment: fixed;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        position: relative;
 }
-
-.fixed-bg4 {
-    padding-top: 80px;
-    min-height: 500px;
-    background-image: url("tetear.jpg");
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-    position: relative;
-}
-
+.fixed-bg4{
+        padding-top: 80px;
+        min-height: 500px;
+        background-image: url("tetear.jpg");
+        background-attachment: fixed;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        position: relative;
+    }
 
 
 
 
 
+    
 h1 {
-    color: white;
-    margin-top: 150px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 52px;
+        color: white;
+        margin-top: 150px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 52px;
 }
 
 h1 small {
-    display: block;
-    margin-top: 30px;
-    font-weight: normal;
-    font-size: 50%
+        display: block;
+        margin-top: 30px;
+        font-weight: normal;
+        font-size: 50%
 }
 
-main section {
-    margin: 10px;
+main section{
+        margin: 10px;
 }
 
-article {
-    margin: 30px;
-    padding: 12px;
-    background: #efefef;
-    border-radius: 5px;
-    padding-bottom: 50px;
-    min-height: 350px;
+article{
+        margin:30px;
+        padding:12px;
+        background:#efefef;
+        border-radius:5px;
+        padding-bottom: 50px;
+        min-height: 350px;
 }
 
 article img {
-    border-radius: 5px;
-    padding: 20px;
-    color: #efefef;
-    width: 450px;
-    font-size: 8rem;
-
-    &.right {
-        float: right;
-        margin-left: 20px;
-    }
-
-    &.left {
-        float: left;
-        margin-right: 30px;
+        border-radius:5px;
+        padding:20px;
+        color:#efefef;
+        width: 450px;
+        font-size:8rem;
+        &.right{
+            float:right;
+            margin-left:20px;
+        }
+        &.left{
+            float:left;
+            margin-right:30px;
     }
 }
 
 #history {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
 }
-
-#history td,
-#customers th {
-    border: 1px solid #ddd;
-    padding: 8px;
+      
+#history td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
 }
-
-#history tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-#history tr:hover {
-    background-color: #ddd;
-}
-
+      
+#history tr:nth-child(even){background-color: #f2f2f2;}
+      
+#history tr:hover {background-color: #ddd;}
+      
 #history th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #333;
-    color: white;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #333;
+        color: white;
 }
 
 footer {
@@ -223,9 +211,7 @@ footer a:hover {
 }
 
 /* Nouvelles règles CSS pour la partie "Contact" et "Page suivante" */
-#contact,
-#creation-date,
-#next-page {
+#contact, #creation-date, #next-page {
     display: inline-block;
     margin: 0 15px;
 }
@@ -233,73 +219,4 @@ footer a:hover {
 #next-page a {
     font-weight: bold;
     font-size: 1.1em;
-}
-
-
-#realise_par {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 600px;
-    margin: 0;
-
-}
-
-#realise_par p {
-    margin: 0;
-}
-
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
-footer a {
-    color: #fff;
-}
-
-table,
-td {
-    border: 1px solid #333;
-}
-
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
-}
-
-
-/* Add animation keyframes for the sliding effect */
-@keyframes slideIn {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-/* animate the "realise_par" section */
-#realise_par {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 600px;
-    margin: 0;
-    animation: slideIn 1s ease-out;
 }
